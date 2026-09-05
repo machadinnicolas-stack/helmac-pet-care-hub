@@ -1,6 +1,6 @@
 // Configurações centrais do site Helmac Pet.
 // Altere SITE_URL quando o domínio oficial estiver disponível.
-export const SITE_URL = "";
+export const SITE_URL: string = "";
 
 export const SHOPEE_URL =
   "https://shopee.com.br/Queda-de-Pelos-em-Cachorro-Vitamina-e-Suplemento-em-Petisco-Pele-e-Pelagem-%C3%94mega-3-Biotina-Zinco-Helmac-Pet-150g-i.1396465802.58216009450";
