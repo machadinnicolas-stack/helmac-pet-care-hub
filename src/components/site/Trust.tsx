@@ -3,10 +3,26 @@ import { MAPA_REGISTRO } from "@/lib/site";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
 const items = [
-  { icon: Factory, title: "Fabricado no Brasil", text: `Estabelecimento registrado no MAPA — ${MAPA_REGISTRO}.` },
-  { icon: FlaskConical, title: "Fórmula definida", text: "Ômega 3, Biotina, Zinco e Curcuminoides em cada petisco." },
-  { icon: PawPrint, title: "Feito para cães", text: "Desenvolvido especificamente para a rotina canina." },
-  { icon: Truck, title: "Compra oficial", text: "Vendido pelo anúncio oficial da marca na Shopee." },
+  {
+    icon: Factory,
+    title: "Fabricado no Brasil",
+    text: `Estabelecimento registrado no MAPA — ${MAPA_REGISTRO}.`,
+  },
+  {
+    icon: FlaskConical,
+    title: "Fórmula definida",
+    text: "Ômega 3, Biotina, Zinco e Curcuminoides em cada petisco.",
+  },
+  {
+    icon: PawPrint,
+    title: "Feito para cães",
+    text: "Desenvolvido especificamente para a rotina canina.",
+  },
+  {
+    icon: Truck,
+    title: "Compra oficial",
+    text: "Vendido pelo anúncio oficial da marca na Shopee.",
+  },
 ];
 
 export function Trust() {

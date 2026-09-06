@@ -6,12 +6,15 @@ import { Eyebrow, ShopeeButton } from "./primitives";
 const facts = [
   { icon: Leaf, text: "Ômega 3, Biotina, Zinco e Curcuminoides" },
   { icon: Drumstick, text: "Sabor frango e batata-doce" },
-  { icon: Package, text: "Pote com 150 g" },
+  { icon: Package, text: "Pote com 150 g · aprox. 33 petiscos" },
 ];
 
 export function Hero() {
   return (
-    <section id="inicio" className="scroll-mt-24 bg-cream px-5 pt-28 pb-20 sm:px-8 md:pt-36 md:pb-28">
+    <section
+      id="inicio"
+      className="scroll-mt-24 bg-cream px-5 pt-28 pb-20 sm:px-8 md:pt-36 md:pb-28"
+    >
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 md:grid-cols-2 md:gap-16">
         <div>
           <Eyebrow>Suplementação em formato de petisco</Eyebrow>

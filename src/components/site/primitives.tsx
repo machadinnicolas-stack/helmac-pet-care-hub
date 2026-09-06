@@ -31,9 +31,7 @@ export function Section({
 }
 
 export function Eyebrow({ children, muted }: { children: ReactNode; muted?: boolean }) {
-  return (
-    <p className={cn("eyebrow", muted ? "text-accent-soft" : "text-accent")}>{children}</p>
-  );
+  return <p className={cn("eyebrow", muted ? "text-accent-soft" : "text-accent")}>{children}</p>;
 }
 
 export function ShopeeButton({
@@ -46,12 +44,9 @@ export function ShopeeButton({
   className?: string;
 }) {
   const variants = {
-    solid:
-      "bg-accent text-brown hover:bg-accent/90 shadow-[var(--shadow-soft)]",
-    outline:
-      "border border-primary/25 bg-transparent text-primary hover:bg-primary/5",
-    cream:
-      "bg-cream text-primary hover:bg-cream-deep shadow-[var(--shadow-soft)]",
+    solid: "bg-accent text-brown hover:bg-accent/90 shadow-[var(--shadow-soft)]",
+    outline: "border border-primary/25 bg-transparent text-primary hover:bg-primary/5",
+    cream: "bg-cream text-primary hover:bg-cream-deep shadow-[var(--shadow-soft)]",
   } as const;
 
   return (
@@ -71,13 +66,7 @@ export function ShopeeButton({
   );
 }
 
-export function SectionTitle({
-  children,
-  className,
-}: {
-  children: ReactNode;
-  className?: string;
-}) {
+export function SectionTitle({ children, className }: { children: ReactNode; className?: string }) {
   return (
     <h2
       className={cn(

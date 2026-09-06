@@ -1,5 +1,12 @@
 import { Instagram, Mail } from "lucide-react";
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL, MAPA_REGISTRO, NAV_LINKS, SAC_EMAIL, SHOPEE_URL } from "@/lib/site";
+import {
+  INSTAGRAM_HANDLE,
+  INSTAGRAM_URL,
+  MAPA_REGISTRO,
+  NAV_LINKS,
+  SAC_EMAIL,
+  SHOPEE_URL,
+} from "@/lib/site";
 
 export function Footer() {
   return (
@@ -72,8 +79,8 @@ export function Footer() {
         </p>
         <p className="mt-2 text-xs leading-relaxed text-cream/60">
           Produto suplementar para cães. Não substitui alimentação equilibrada nem acompanhamento
-          veterinário. As informações deste site têm caráter informativo e não constituem
-          orientação médica.
+          veterinário. As informações deste site têm caráter informativo e não constituem orientação
+          médica.
         </p>
         <p className="mt-4 text-xs text-cream/50">
           © {new Date().getFullYear()} Helmac Pet. Todos os direitos reservados.

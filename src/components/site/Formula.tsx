@@ -1,5 +1,5 @@
 import jarPhoto from "@/assets/helmac-jar.webp.asset.json";
-import { Section, SectionTitle, Eyebrow } from "./primitives";
+import { Section, SectionTitle, Eyebrow, ShopeeButton } from "./primitives";
 
 const actives = [
   { name: "Zinco", text: "Mineral importante para a manutenção da pele e da pelagem." },
@@ -48,6 +48,12 @@ export function Formula() {
             <p className="text-base leading-relaxed">
               Uma combinação desenvolvida para integrar a rotina de cuidado do seu cão.
             </p>
+          </li>
+          <li className="flex flex-col items-start justify-between gap-4 rounded-2xl border border-border/70 bg-background p-6 sm:flex-row sm:items-center">
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              Conheça o produto completo no anúncio oficial da Helmac Pet.
+            </p>
+            <ShopeeButton className="shrink-0 px-5 py-3 text-xs">Ver produto</ShopeeButton>
           </li>
         </ul>
       </div>

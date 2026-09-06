@@ -27,7 +27,6 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: TITLE },
@@ -53,7 +52,11 @@ export const Route = createFileRoute("/")({
               description: DESCRIPTION,
               brand: { "@type": "Brand", name: "Helmac Pet" },
               category: "Suplemento para cães",
-              offers: { "@type": "Offer", url: SHOPEE_URL, availability: "https://schema.org/InStock" },
+              offers: {
+                "@type": "Offer",
+                url: SHOPEE_URL,
+                availability: "https://schema.org/InStock",
+              },
             },
             {
               "@type": "FAQPage",
