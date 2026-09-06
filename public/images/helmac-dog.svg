@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Foto principal pendente</title>
+  <desc id="desc">Espaco reservado para a fotografia principal do produto com um cachorro.</desc>
+  <rect width="600" height="900" fill="#e8dfcf"/>
+  <circle cx="300" cy="320" r="150" fill="#d4c4aa"/>
+  <path d="M152 570c55-98 241-98 296 0v190H152z" fill="#b9a17c"/>
+  <path d="M190 285c-72-62-85 30-39 74M410 285c72-62 85 30 39 74" fill="none" stroke="#a58b67" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="245" cy="325" r="10" fill="#3b2417"/><circle cx="355" cy="325" r="10" fill="#3b2417"/>
+  <path d="M280 380q20 18 40 0" fill="none" stroke="#3b2417" stroke-width="8" stroke-linecap="round"/>
+  <text x="300" y="835" text-anchor="middle" fill="#173d2b" font-family="sans-serif" font-size="22" font-weight="600">FOTO PRINCIPAL</text>
+</svg>

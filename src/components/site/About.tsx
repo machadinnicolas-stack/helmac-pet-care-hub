@@ -1,5 +1,6 @@
-import familyPhoto from "@/assets/helmac-family.webp.asset.json";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
+
+const familyPhoto = "/images/helmac-family.svg";
 
 export function About() {
   return (
@@ -23,7 +24,7 @@ export function About() {
 
         <div className="reveal overflow-hidden rounded-3xl bg-cream shadow-[var(--shadow-soft)]">
           <img
-            src={familyPhoto.url}
+            src={familyPhoto}
             width={186}
             height={304}
             loading="lazy"

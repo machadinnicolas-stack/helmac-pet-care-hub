@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Foto de oferta pendente</title>
+  <desc id="desc">Espaco reservado para a fotografia de um tutor oferecendo um petisco ao cachorro.</desc>
+  <rect width="600" height="700" fill="#e8dfcf"/>
+  <path d="M120 620q-35-190 90-260l120-45 72 75-112 72-30 158z" fill="#c69b78"/>
+  <path d="M298 320l112 38q48 16 20 55l-115-18z" fill="#d4aa87"/>
+  <circle cx="460" cy="264" r="76" fill="#b9a17c"/>
+  <circle cx="437" cy="252" r="8" fill="#3b2417"/><circle cx="484" cy="252" r="8" fill="#3b2417"/>
+  <text x="300" y="650" text-anchor="middle" fill="#173d2b" font-family="sans-serif" font-size="22" font-weight="600">FOTO DO MOMENTO</text>
+</svg>

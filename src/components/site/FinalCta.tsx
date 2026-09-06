@@ -1,5 +1,6 @@
-import ctaPhoto from "@/assets/helmac-cta.webp.asset.json";
 import { ShopeeButton } from "./primitives";
+
+const ctaPhoto = "/images/helmac-cta.svg";
 
 export function FinalCta() {
   return (
@@ -21,7 +22,7 @@ export function FinalCta() {
 
         <div className="overflow-hidden rounded-3xl bg-primary-soft shadow-[var(--shadow-lift)]">
           <img
-            src={ctaPhoto.url}
+            src={ctaPhoto}
             width={232}
             height={195}
             loading="lazy"

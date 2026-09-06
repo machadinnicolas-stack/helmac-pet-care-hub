@@ -1,5 +1,6 @@
-import jarPhoto from "@/assets/helmac-jar.webp.asset.json";
 import { Section, SectionTitle, Eyebrow, ShopeeButton } from "./primitives";
+
+const jarPhoto = "/images/helmac-jar.svg";
 
 const actives = [
   { name: "Zinco", text: "Mineral importante para a manutenção da pele e da pelagem." },
@@ -23,7 +24,7 @@ export function Formula() {
           <SectionTitle className="text-primary">O que existe por trás desse cuidado</SectionTitle>
           <div className="reveal mt-8 overflow-hidden rounded-3xl bg-cream shadow-[var(--shadow-soft)]">
             <img
-              src={jarPhoto.url}
+              src={jarPhoto}
               width={202}
               height={332}
               loading="lazy"

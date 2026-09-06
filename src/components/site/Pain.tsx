@@ -1,6 +1,7 @@
 import { Info } from "lucide-react";
-import profilePhoto from "@/assets/helmac-profile.webp.asset.json";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
+
+const profilePhoto = "/images/helmac-profile.svg";
 
 export function Pain() {
   return (
@@ -8,7 +9,7 @@ export function Pain() {
       <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
         <div className="reveal overflow-hidden rounded-3xl bg-cream shadow-[var(--shadow-soft)]">
           <img
-            src={profilePhoto.url}
+            src={profilePhoto}
             width={147}
             height={278}
             loading="lazy"

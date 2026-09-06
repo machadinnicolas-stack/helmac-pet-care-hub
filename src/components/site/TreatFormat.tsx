@@ -1,6 +1,7 @@
-import handPhoto from "@/assets/helmac-hand.webp.asset.json";
 import { Heart, Cookie, Smile } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
+
+const handPhoto = "/images/helmac-hand.svg";
 
 const points = [
   { icon: Cookie, text: "Sabor frango e batata-doce, pensado para agradar o paladar canino." },
@@ -31,7 +32,7 @@ export function TreatFormat() {
 
         <div className="reveal overflow-hidden rounded-3xl bg-background shadow-[var(--shadow-soft)]">
           <img
-            src={handPhoto.url}
+            src={handPhoto}
             width={207}
             height={278}
             loading="lazy"

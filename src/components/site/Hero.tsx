@@ -1,7 +1,8 @@
-import dogPhoto from "@/assets/helmac-dog.webp.asset.json";
-import jarPhoto from "@/assets/helmac-jar.webp.asset.json";
 import { Leaf, Drumstick, Package } from "lucide-react";
 import { Eyebrow, ShopeeButton } from "./primitives";
+
+const dogPhoto = "/images/helmac-dog.svg";
+const jarPhoto = "/images/helmac-jar.svg";
 
 const facts = [
   { icon: Leaf, text: "Ômega 3, Biotina, Zinco e Curcuminoides" },
@@ -51,7 +52,7 @@ export function Hero() {
         <div className="relative">
           <div className="overflow-hidden rounded-3xl bg-cream-deep shadow-[var(--shadow-lift)]">
             <img
-              src={dogPhoto.url}
+              src={dogPhoto}
               width={300}
               height={624}
               alt="Cão golden retriever deitado ao lado dos petiscos Helmac Pet Pelo & Derme"
@@ -61,7 +62,7 @@ export function Hero() {
           </div>
           <figure className="absolute -bottom-8 -left-2 w-36 overflow-hidden rounded-2xl border-4 border-background shadow-[var(--shadow-soft)] sm:w-44 md:-left-8">
             <img
-              src={jarPhoto.url}
+              src={jarPhoto}
               width={202}
               height={332}
               alt="Pote preto Helmac Pet aberto com petiscos em formato de ossinho"
