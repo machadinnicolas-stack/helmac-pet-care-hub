@@ -35,12 +35,9 @@ export function Formula() {
           </div>
         </div>
 
-        <ul className="grid gap-4">
+        <ul className="reveal grid gap-4">
           {actives.map((item) => (
-            <li
-              key={item.name}
-              className="reveal rounded-2xl border border-border/70 bg-cream/60 p-6"
-            >
+            <li key={item.name} className="rounded-2xl border border-border/70 bg-cream/60 p-6">
               <h3 className="text-lg font-semibold text-primary">{item.name}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.text}</p>
             </li>

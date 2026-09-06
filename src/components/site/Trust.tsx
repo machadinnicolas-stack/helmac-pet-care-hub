@@ -48,11 +48,11 @@ export function Trust() {
         </div>
       </div>
 
-      <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="reveal mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map(({ icon: Icon, title, text }) => (
           <li
             key={title}
-            className="reveal rounded-2xl border border-border/70 bg-background p-6 shadow-[var(--shadow-soft)]"
+            className="rounded-2xl border border-border/70 bg-background p-6 shadow-[var(--shadow-soft)]"
           >
             <Icon className="size-5 text-accent" aria-hidden="true" />
             <h3 className="mt-4 text-base font-semibold text-primary">{title}</h3>

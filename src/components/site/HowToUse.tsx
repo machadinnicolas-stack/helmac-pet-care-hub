@@ -41,12 +41,9 @@ export function HowToUse() {
         </div>
       </div>
 
-      <ol className="mt-12 grid gap-5 md:grid-cols-3">
+      <ol className="reveal mt-12 grid gap-5 md:grid-cols-3">
         {steps.map((item) => (
-          <li
-            key={item.step}
-            className="reveal rounded-2xl border border-border/70 bg-cream/60 p-6"
-          >
+          <li key={item.step} className="rounded-2xl border border-border/70 bg-cream/60 p-6">
             <span className="grid size-10 place-items-center rounded-full bg-primary font-display text-base font-semibold text-primary-foreground">
               {item.step}
             </span>

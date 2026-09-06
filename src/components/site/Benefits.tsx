@@ -50,11 +50,11 @@ export function Benefits() {
         </div>
       </div>
 
-      <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="reveal mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {benefits.map(({ icon: Icon, title, text }) => (
           <li
             key={title}
-            className="reveal rounded-2xl border border-border/70 bg-background p-6 shadow-[var(--shadow-soft)]"
+            className="rounded-2xl border border-border/70 bg-background p-6 shadow-[var(--shadow-soft)]"
           >
             <span className="grid size-11 place-items-center rounded-xl bg-accent/12 text-accent">
               <Icon className="size-5" aria-hidden="true" />
