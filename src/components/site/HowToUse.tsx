@@ -1,5 +1,7 @@
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
+const howToUseBanner = "/images/how-to-use-banner.png";
+
 const steps = [
   {
     step: "1",
@@ -21,9 +23,22 @@ const steps = [
 export function HowToUse() {
   return (
     <Section id="como-usar" tone="white">
-      <div className="max-w-2xl">
-        <Eyebrow>Como usar</Eyebrow>
-        <SectionTitle className="text-primary">Simples de incluir no dia a dia</SectionTitle>
+      <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
+        <div>
+          <Eyebrow>Como usar</Eyebrow>
+          <SectionTitle className="text-primary">Simples de incluir no dia a dia</SectionTitle>
+        </div>
+        <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
+          <img
+            src={howToUseBanner}
+            width={387}
+            height={281}
+            loading="lazy"
+            decoding="async"
+            alt="Prático para você, saudável para ele: até 2 petiscos por dia já fazem a diferença. Fácil de oferecer, pode ser usado todos os dias, indicado para cães de todas as idades"
+            className="h-auto w-full"
+          />
+        </div>
       </div>
 
       <ol className="mt-12 grid gap-5 md:grid-cols-3">

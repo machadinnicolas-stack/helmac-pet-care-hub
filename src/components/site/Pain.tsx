@@ -1,21 +1,21 @@
 import { Info } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const profilePhoto = "/images/helmac-profile.webp";
+const painBanner = "/images/pain-banner.png";
 
 export function Pain() {
   return (
     <Section id="produto" tone="white">
       <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
-        <div className="reveal overflow-hidden rounded-3xl bg-cream shadow-[var(--shadow-soft)]">
+        <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
-            src={profilePhoto}
-            width={147}
-            height={278}
+            src={painBanner}
+            width={375}
+            height={309}
             loading="lazy"
             decoding="async"
-            alt="Perfil de um cão de pelagem dourada e bem cuidada"
-            className="h-[300px] w-full object-cover sm:h-[380px]"
+            alt="Um cuidado completo para o seu melhor amigo: auxilia na saúde da pele e pelagem, com ingredientes naturais e desenvolvido com qualidade e carinho."
+            className="h-auto w-full"
           />
         </div>
 

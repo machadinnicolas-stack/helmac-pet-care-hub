@@ -1,7 +1,7 @@
 import { Heart, Cookie, Smile } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const handPhoto = "/images/helmac-hand.webp";
+const treatFormatBanner = "/images/treat-format-banner.png";
 
 const points = [
   { icon: Cookie, text: "Sabor frango e batata-doce, pensado para agradar o paladar canino." },
@@ -30,15 +30,15 @@ export function TreatFormat() {
           </ul>
         </div>
 
-        <div className="reveal overflow-hidden rounded-3xl bg-background shadow-[var(--shadow-soft)]">
+        <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
-            src={handPhoto}
-            width={207}
-            height={278}
+            src={treatFormatBanner}
+            width={370}
+            height={339}
             loading="lazy"
             decoding="async"
-            alt="Mão de tutor oferecendo um petisco Helmac Pet ao cão"
-            className="h-[300px] w-full object-cover sm:h-[380px]"
+            alt="Sabor que eles amam, nutrição que eles precisam: frango e batata-doce em um petisco irresistível e funcional, com ingredientes selecionados e alta palatabilidade"
+            className="h-auto w-full"
           />
         </div>
       </div>

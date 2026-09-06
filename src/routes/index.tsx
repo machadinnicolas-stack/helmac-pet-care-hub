@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
+import { TrustStrip } from "@/components/site/TrustStrip";
 import { Pain } from "@/components/site/Pain";
 import { Benefits } from "@/components/site/Benefits";
 import { Formula } from "@/components/site/Formula";
@@ -18,7 +19,7 @@ import { absoluteUrl, INSTAGRAM_URL, SAC_EMAIL, SHOPEE_URL } from "@/lib/site";
 const TITLE = "Helmac Pet | Petisco Suplementar para Pele e Pelagem de Cães";
 const DESCRIPTION =
   "Helmac Pet Pelo & Derme: petisco suplementar com Ômega 3, Biotina, Zinco e Curcuminoides para o cuidado diário com a pele e a pelagem do seu cão.";
-const SHARE_IMAGE = absoluteUrl("/images/helmac-cta.webp");
+const SHARE_IMAGE = absoluteUrl("/images/hero-banner.png");
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -90,6 +91,7 @@ function Index() {
       <Header />
       <main id="conteudo">
         <Hero />
+        <TrustStrip />
         <Pain />
         <Benefits />
         <Formula />
