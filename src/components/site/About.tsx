@@ -1,6 +1,6 @@
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const familyPhoto = "/images/helmac-family.webp";
+const familyPhoto = "/images/about-banner.jpg";
 
 export function About() {
   return (
@@ -25,11 +25,11 @@ export function About() {
         <div className="reveal overflow-hidden rounded-3xl bg-cream shadow-[var(--shadow-soft)]">
           <img
             src={familyPhoto}
-            width={186}
-            height={304}
+            width={1448}
+            height={1086}
             loading="lazy"
             decoding="async"
-            alt="Tutora ao lado do seu cão em um momento de convivência em casa"
+            alt="Tutora sorrindo enquanto oferece um petisco Helmac Pet ao seu cão, em um momento de carinho no sofá de casa"
             className="h-[300px] w-full object-cover sm:h-[400px]"
           />
         </div>
