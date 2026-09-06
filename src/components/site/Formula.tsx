@@ -1,6 +1,6 @@
 import { Section, SectionTitle, Eyebrow, ShopeeButton } from "./primitives";
 
-const jarPhoto = "/images/helmac-jar.svg";
+const jarPhoto = "/images/helmac-jar.webp";
 
 const actives = [
   { name: "Zinco", text: "Mineral importante para a manutenção da pele e da pelagem." },

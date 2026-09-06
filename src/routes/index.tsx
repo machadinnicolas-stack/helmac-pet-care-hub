@@ -13,11 +13,12 @@ import { FinalCta } from "@/components/site/FinalCta";
 import { Faq, FAQ_ITEMS } from "@/components/site/Faq";
 import { Footer } from "@/components/site/Footer";
 import { MobileBuyBar } from "@/components/site/MobileBuyBar";
-import { INSTAGRAM_URL, SAC_EMAIL, SHOPEE_URL } from "@/lib/site";
+import { absoluteUrl, INSTAGRAM_URL, SAC_EMAIL, SHOPEE_URL } from "@/lib/site";
 
 const TITLE = "Helmac Pet | Petisco Suplementar para Pele e Pelagem de Cães";
 const DESCRIPTION =
   "Helmac Pet Pelo & Derme: petisco suplementar com Ômega 3, Biotina, Zinco e Curcuminoides para o cuidado diário com a pele e a pelagem do seu cão.";
+const SHARE_IMAGE = absoluteUrl("/images/helmac-cta.webp");
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -28,11 +29,14 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
+      { property: "og:url", content: absoluteUrl("/") },
+      { property: "og:image", content: SHARE_IMAGE },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESCRIPTION },
+      { name: "twitter:image", content: SHARE_IMAGE },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/") }],
     scripts: [
       {
         type: "application/ld+json",

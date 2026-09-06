@@ -1,7 +1,7 @@
 import { Info } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const profilePhoto = "/images/helmac-profile.svg";
+const profilePhoto = "/images/helmac-profile.webp";
 
 export function Pain() {
   return (

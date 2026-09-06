@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
-  <title id="title">Foto de chamada pendente</title>
-  <desc id="desc">Espaco reservado para a fotografia real dos petiscos e do pote.</desc>
-  <rect width="600" height="420" fill="#28563e"/>
-  <ellipse cx="300" cy="255" rx="140" ry="55" fill="#173d2b"/>
-  <rect x="200" y="105" width="200" height="160" rx="28" fill="#173d2b" stroke="#f7f1e7" stroke-width="5"/>
-  <text x="300" y="180" text-anchor="middle" fill="#f7f1e7" font-family="sans-serif" font-size="20" font-weight="700">HELMAC PET</text>
-  <text x="300" y="212" text-anchor="middle" fill="#d58a17" font-family="sans-serif" font-size="13">FOTO DO PRODUTO</text>
-</svg>

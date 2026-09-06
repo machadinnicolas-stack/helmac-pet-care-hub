@@ -1,6 +1,6 @@
 import { ShopeeButton } from "./primitives";
 
-const ctaPhoto = "/images/helmac-cta.svg";
+const ctaPhoto = "/images/helmac-cta.webp";
 
 export function FinalCta() {
   return (

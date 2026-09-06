@@ -1,7 +1,7 @@
 import { Heart, Cookie, Smile } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const handPhoto = "/images/helmac-hand.svg";
+const handPhoto = "/images/helmac-hand.webp";
 
 const points = [
   { icon: Cookie, text: "Sabor frango e batata-doce, pensado para agradar o paladar canino." },

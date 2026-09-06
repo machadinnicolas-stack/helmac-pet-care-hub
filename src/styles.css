@@ -206,6 +206,17 @@
   }
 }
 
+/* Safari/Firefox don't support scroll-driven animations (animation-timeline: view()).
+   Without this, .reveal elements stay stuck at opacity: 0 there since nothing ever
+   drives the animation forward. */
+@supports not (animation-timeline: view()) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

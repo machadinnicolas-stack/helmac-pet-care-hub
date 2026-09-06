@@ -1,8 +1,8 @@
 import { Leaf, Drumstick, Package } from "lucide-react";
 import { Eyebrow, ShopeeButton } from "./primitives";
 
-const dogPhoto = "/images/helmac-dog.svg";
-const jarPhoto = "/images/helmac-jar.svg";
+const dogPhoto = "/images/helmac-dog.webp";
+const jarPhoto = "/images/helmac-jar.webp";
 
 const facts = [
   { icon: Leaf, text: "Ômega 3, Biotina, Zinco e Curcuminoides" },

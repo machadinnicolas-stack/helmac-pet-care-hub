@@ -1,6 +1,6 @@
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const familyPhoto = "/images/helmac-family.svg";
+const familyPhoto = "/images/helmac-family.webp";
 
 export function About() {
   return (
