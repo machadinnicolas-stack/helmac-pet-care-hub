@@ -1,7 +1,7 @@
 import { Heart, Cookie, Smile } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const treatFormatBanner = "/images/treat-format-banner.png";
+const treatFormatBanner = "/images/treat-format-banner.jpg";
 
 const points = [
   { icon: Cookie, text: "Sabor frango e batata-doce, pensado para agradar o paladar canino." },
@@ -33,8 +33,8 @@ export function TreatFormat() {
         <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
             src={treatFormatBanner}
-            width={370}
-            height={339}
+            width={1600}
+            height={1468}
             loading="lazy"
             decoding="async"
             alt="Sabor que eles amam, nutrição que eles precisam: frango e batata-doce em um petisco irresistível e funcional, com ingredientes selecionados e alta palatabilidade"

@@ -1,7 +1,7 @@
 import { Info } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const painBanner = "/images/pain-banner.png";
+const painBanner = "/images/pain-banner.jpg";
 
 export function Pain() {
   return (
@@ -10,8 +10,8 @@ export function Pain() {
         <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
             src={painBanner}
-            width={375}
-            height={309}
+            width={1600}
+            height={1320}
             loading="lazy"
             decoding="async"
             alt="Um cuidado completo para o seu melhor amigo: auxilia na saúde da pele e pelagem, com ingredientes naturais e desenvolvido com qualidade e carinho."

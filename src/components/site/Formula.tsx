@@ -1,6 +1,6 @@
 import { Section, SectionTitle, Eyebrow, ShopeeButton } from "./primitives";
 
-const jarPhoto = "/images/formula-banner.png";
+const jarPhoto = "/images/formula-banner.jpg";
 
 const actives = [
   { name: "Zinco", text: "Mineral importante para a manutenção da pele e da pelagem." },
@@ -25,8 +25,8 @@ export function Formula() {
           <div className="reveal mt-8 overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
             <img
               src={jarPhoto}
-              width={387}
-              height={338}
+              width={1600}
+              height={1402}
               loading="lazy"
               decoding="async"
               alt="Ingredientes que fazem a diferença: Zinco para a saúde da pele, Biotina para pelos mais fortes e bonitos, Ômega-3 EPA e DHA para brilho e vitalidade, e Curcuminoides para ação antioxidante natural"

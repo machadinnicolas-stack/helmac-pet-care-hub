@@ -1,6 +1,6 @@
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const howToUseBanner = "/images/how-to-use-banner.png";
+const howToUseBanner = "/images/how-to-use-banner.jpg";
 
 const steps = [
   {
@@ -31,8 +31,8 @@ export function HowToUse() {
         <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
             src={howToUseBanner}
-            width={387}
-            height={281}
+            width={1600}
+            height={1178}
             loading="lazy"
             decoding="async"
             alt="Prático para você, saudável para ele: até 2 petiscos por dia já fazem a diferença. Fácil de oferecer, pode ser usado todos os dias, indicado para cães de todas as idades"

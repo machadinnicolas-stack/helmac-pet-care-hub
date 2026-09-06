@@ -1,7 +1,7 @@
 import { Leaf, Drumstick, Package } from "lucide-react";
 import { ShopeeButton } from "./primitives";
 
-const heroBanner = "/images/hero-banner.png";
+const heroBanner = "/images/hero-banner.jpg";
 
 const facts = [
   { icon: Leaf, text: "Ômega 3, Biotina, Zinco e Curcuminoides" },
@@ -31,8 +31,8 @@ export function Hero() {
         <div className="overflow-hidden rounded-3xl shadow-[var(--shadow-lift)]">
           <img
             src={heroBanner}
-            width={760}
-            height={627}
+            width={1600}
+            height={1320}
             alt="Helmac Pet Pelo & Derme: cuidado que começa de dentro, beleza que aparece por fora. Petisco suplementar para a pele e a pelagem do seu cão, com selo de estabelecimento registrado no MAPA."
             fetchPriority="high"
             className="h-auto w-full"

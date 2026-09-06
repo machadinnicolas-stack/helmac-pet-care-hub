@@ -2,7 +2,7 @@ import { Factory, FlaskConical, PawPrint, Truck } from "lucide-react";
 import { MAPA_REGISTRO } from "@/lib/site";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const trustBanner = "/images/trust-banner.png";
+const trustBanner = "/images/trust-banner.jpg";
 
 const items = [
   {
@@ -38,8 +38,8 @@ export function Trust() {
         <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
             src={trustBanner}
-            width={377}
-            height={309}
+            width={1600}
+            height={1306}
             loading="lazy"
             decoding="async"
             alt={`A qualidade que você confia: produzido em estabelecimento registrado no MAPA (${MAPA_REGISTRO}), com controle de qualidade em todas as etapas, ingredientes selecionados e feito com responsabilidade e amor por cães`}

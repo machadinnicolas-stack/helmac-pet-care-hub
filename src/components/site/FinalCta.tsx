@@ -1,6 +1,6 @@
 import { ShopeeButton } from "./primitives";
 
-const finalCtaBanner = "/images/final-cta-banner.png";
+const finalCtaBanner = "/images/final-cta-banner.jpg";
 
 export function FinalCta() {
   return (
@@ -20,8 +20,8 @@ export function FinalCta() {
         <div className="overflow-hidden rounded-3xl shadow-[var(--shadow-lift)]">
           <img
             src={finalCtaBanner}
-            width={370}
-            height={309}
+            width={1600}
+            height={1333}
             loading="lazy"
             decoding="async"
             alt="Transforme a rotina do seu cão hoje mesmo: Helmac Pet Pelo & Derme é o cuidado que ele sente e que você vê"

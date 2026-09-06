@@ -19,7 +19,7 @@ import { absoluteUrl, INSTAGRAM_URL, SAC_EMAIL, SHOPEE_URL } from "@/lib/site";
 const TITLE = "Helmac Pet | Petisco Suplementar para Pele e Pelagem de Cães";
 const DESCRIPTION =
   "Helmac Pet Pelo & Derme: petisco suplementar com Ômega 3, Biotina, Zinco e Curcuminoides para o cuidado diário com a pele e a pelagem do seu cão.";
-const SHARE_IMAGE = absoluteUrl("/images/hero-banner.png");
+const SHARE_IMAGE = absoluteUrl("/images/hero-banner.jpg");
 
 export const Route = createFileRoute("/")({
   head: () => ({

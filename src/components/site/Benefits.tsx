@@ -1,7 +1,7 @@
 import { Sparkles, ShieldCheck, Waves, Clock } from "lucide-react";
 import { Section, SectionTitle, Eyebrow } from "./primitives";
 
-const benefitsBanner = "/images/benefits-banner.png";
+const benefitsBanner = "/images/benefits-banner.jpg";
 
 const benefits = [
   {
@@ -40,8 +40,8 @@ export function Benefits() {
         <div className="reveal overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
           <img
             src={benefitsBanner}
-            width={370}
-            height={281}
+            width={1600}
+            height={1213}
             loading="lazy"
             decoding="async"
             alt="Pele saudável, pelagem incrível: nutrientes que trabalham de dentro para fora, com menos queda de pelos, mais brilho e maciez, e pele nutrida e protegida"
