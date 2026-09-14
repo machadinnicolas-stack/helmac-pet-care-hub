@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
-import { NAV_LINKS } from "@/lib/site";
+import { Instagram, Menu, X } from "lucide-react";
+import { INSTAGRAM_URL, NAV_LINKS } from "@/lib/site";
 import { ShopeeButton } from "./primitives";
 import { cn } from "@/lib/utils";
 
@@ -58,11 +58,29 @@ export function Header() {
           </ul>
         </nav>
 
-        <div className="ml-auto hidden lg:ml-6 lg:block">
+        <div className="ml-auto hidden items-center gap-5 lg:ml-6 lg:flex">
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram da Helmac Pet"
+            className="text-muted-foreground transition-colors hover:text-primary"
+          >
+            <Instagram className="size-5" aria-hidden="true" />
+          </a>
           <ShopeeButton className="px-5 py-3" />
         </div>
 
-        <div className="ml-auto flex items-center gap-2 lg:hidden">
+        <div className="ml-auto flex items-center gap-3 lg:hidden">
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram da Helmac Pet"
+            className="text-muted-foreground transition-colors hover:text-primary"
+          >
+            <Instagram className="size-5" aria-hidden="true" />
+          </a>
           <ShopeeButton className="px-4 py-2.5 text-xs">Comprar</ShopeeButton>
           <button
             type="button"
