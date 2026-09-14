@@ -14,6 +14,7 @@ import { FinalCta } from "@/components/site/FinalCta";
 import { Faq, FAQ_ITEMS } from "@/components/site/Faq";
 import { Footer } from "@/components/site/Footer";
 import { MobileBuyBar } from "@/components/site/MobileBuyBar";
+import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { absoluteUrl, INSTAGRAM_URL, SAC_EMAIL, SHOPEE_URL } from "@/lib/site";
 
 const TITLE = "Helmac Pet | Petisco Suplementar para Pele e Pelagem de Cães";
@@ -104,6 +105,7 @@ function Index() {
       </main>
       <Footer />
       <MobileBuyBar />
+      <WhatsAppButton />
     </div>
   );
 }

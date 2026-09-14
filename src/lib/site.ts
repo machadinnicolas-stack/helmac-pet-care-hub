@@ -9,6 +9,11 @@ export const INSTAGRAM_HANDLE = "@helmacpetoficial";
 export const SAC_EMAIL = "helmacpetsuport@gmail.com";
 export const MAPA_REGISTRO = "RS 003858-0";
 
+export const WHATSAPP_NUMBER = "5511913274865";
+export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+  "Olá! Vim pelo site da Helmac Pet e gostaria de saber mais sobre o Pelo & Derme.",
+)}`;
+
 export const NAV_LINKS = [
   { label: "Início", href: "#inicio" },
   { label: "O produto", href: "#produto" },
